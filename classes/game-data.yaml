@@ -1,0 +1,13 @@
+creatures:
+  - name: drone
+    product: meat
+    base-production: .2
+    level-production-multiplier: 1.1
+    lore: They gather meat.
+    product-price: 0
+  - name: queen
+    product: drone
+    base-production: 1.2
+    level-production-multiplier: 1.5
+    lore: They produce drones.
+    product-price: 100
